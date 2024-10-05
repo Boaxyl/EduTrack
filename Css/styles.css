@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+
+}
+
+header {
+    background-color:white;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li:first-of-type {
+    margin-right: 20rem;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url(/Images/empower.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.hero-content p {
+    color: white;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#feat {
+    color: #007bff;
+}
+
+.features {
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.bold {
+    font-weight:bolder;
+    font-size: 30px;
+
+   
+}
+
+.feature h3, h4, p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feature-cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    padding: 2rem 4rem;
+    
+}
+
+.feature {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.svg {
+    border: 4px solid #007bff;
+    border-radius: 50%;
+    padding:5px 10px;
+}
+
+.pricing {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.pricing-tiers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tier {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    
+}
+
+.categories {
+    padding: 50px;
+    text-align: center;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    width: 30%;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container{
+    padding: 50px;
+    text-align: center;
+}
+
+.avatar img {
+   margin-right: -20px;
+}
+
+.faq {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+}
+.faq-item p{
+    text-align: left;
+    /* font-size: 1em; */
+} 
+
+
+
+.faq p:first-of-type{
+    text-align: left;
+    width: 70%;
+}
+
+.faq-item  {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+    padding:0 10rem;
+}
+
+/* .faq-item p{
+    text-align: left;
+    font-size: 1em;
+} */
+
+
+.footer-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Aligns items horizontally in the center */
+    background-color: white;
+    color: black;
+    padding: 2rem;
+  }
+  
+  .footer-image {
+    margin-right: 10px; /* Adjust the spacing between the image and text */
+  }
+  
+  .footer-text {
+    font-size: 16px; /* Adjust the text size as needed */
+  }
+  
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-nav {
+    list-style: none;
+    padding: 0;
+}
+footer .footer-nav li {
+    display:contents;
+    margin: 0 10px;
+}
+footer .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.link-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: left   ;
+    flex-wrap: wrap;
+}
+
+.link {
+    width: 15%;
+    text-align: left;
+    padding: 50px;
+    font-size: small;
+}
+
+li {
+    list-style: none;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color:black;
+
+
+}
+
+
+
